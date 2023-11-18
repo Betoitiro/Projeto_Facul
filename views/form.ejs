@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        body {
+            background-image:url(macagro.jpg);
+            background-size: cover;
+      
+            background-repeat: no-repeat;
+            display: flex;
+        }
+
+        .formu {
+            padding: 20px;
+            border-radius: 8px;
+            width: 100%;
+        }
+
+        .log {
+            margin-left: 90%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="formu">
+        <center>
+
+            <fieldset>
+                <h1>CENTRAL DE AJUDA</h1>
+                <form action="/add" method="post">
+                    <p>Nome: </p>
+                    <input type="text" name="Nome" required>
+
+                    <p>Email</p>
+                    <input type="text" name="email" required>
+
+                    <p>Mensagem: </p>
+                    <input type="text" name="mensagem" required>
+                    <br>
+                    <br>
+                    <button class="but" type="submit">Enviar</button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <a href="info">
+                        <button>
+                            voltar para o menu 
+                        </button>
+                    </a>
+            </fieldset>
+    </div>
+    </center>
+</body>
+
+</html>
